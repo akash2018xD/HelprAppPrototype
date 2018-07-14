@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akash.helprprototype1.MainActivity">
+
+  <RelativeLayout
+      android:layout_marginTop="20dp"
+      android:layout_width="match_parent"
+      android:layout_marginLeft="-20dp"
+      android:layout_height="wrap_content">
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+       <ImageView
+           android:layout_width="180dp"
+           android:layout_height="200dp"
+           android:src="@drawable/helpr_image_crop"/>
+       <ImageView
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="10dp"
+           android:layout_width="200dp"
+           android:layout_height="100dp"
+           android:src="@drawable/helpr_main_logo"/>
+     </LinearLayout>
+  </RelativeLayout>
+    <ImageView
+        android:id="@+id/paw"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+</LinearLayout>
